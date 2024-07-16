@@ -1,0 +1,15 @@
+.notFound_container {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFound_img {
+  height: 35vh;
+}
+.notFound_text {
+  font-size: 55px;
+  font-weight: bold;
+  color: #551e53;
+}

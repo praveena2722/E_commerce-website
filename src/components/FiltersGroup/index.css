@@ -1,0 +1,147 @@
+.filters_group_container {
+  margin-top: 16px;
+}
+
+.search_input_container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 0px;
+}
+
+.search_input_filters_group {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search_icon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+
+.category_heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.categories_list {
+  padding-left: 0;
+}
+
+.category_item {
+  list-style-type: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.category_name {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.active_category_name {
+  color: #0967d2;
+}
+
+.rating_heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+
+.ratings_list {
+  padding-left: 0px;
+}
+
+.rating_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.rating_image {
+  max-width: 152px;
+  height: 20px;
+}
+
+.and_up {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.active_rating {
+  color: #0967d2;
+}
+
+.clear_filters_btn {
+  background-color: #ffffff;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #0967d2;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .filters_group_container {
+    width: 25%;
+    max-width: 280px;
+    min-width: 240px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+  .category_heading {
+    margin-top: 32px;
+  }
+  .category_item {
+    margin-top: 24px;
+  }
+  .category_name {
+    font-size: 18px;
+  }
+  .rating_image {
+    height: 24px;
+  }
+  .and_up {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+  .clear_filters_btn {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}

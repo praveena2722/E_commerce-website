@@ -1,0 +1,100 @@
+.app_container {
+  padding-top: 12px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  max-width: 1100px;
+}
+.home_heading {
+  text-align: center;
+  color: #1e293b;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.img_clothes_sm {
+  width: 220px;
+  margin: auto;
+}
+.img_clothes_lg {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 66px;
+}
+.home_description {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 32px;
+  margin-bottom: 0px;
+  line-height: 26px;
+}
+.btn_shop_now {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+.shop_now_btn_link {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .img_clothes_lg {
+    display: none;
+  }
+  .home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img_clothes_sm {
+    display: none;
+  }
+  .home_container {
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+  .btn_shop_now {
+    margin-left: 0px;
+  }
+  .home_description {
+    font-size: 18px;
+    text-align: start;
+    margin-top: 0px;
+  }
+  .home_heading {
+    font-size: 44px;
+    text-align: left;
+  }
+  .btn_shop_now {
+    font-size: 18px;
+    width: 150px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .app_container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 90px;
+  }
+}

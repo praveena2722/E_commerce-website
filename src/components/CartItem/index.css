@@ -1,0 +1,126 @@
+.cart_item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 16px 0px #7e858e29;
+}
+
+.cart_image {
+  width: 96px;
+  height: 96px;
+  border-radius: 4px;
+}
+
+.cart_item_details_container {
+  margin-left: 16px;
+}
+
+.cart_product_title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cart_product_brand {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.cart_quantity_container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity_controller_button {
+  padding: 0;
+  border: none;
+}
+
+.cart_quantity {
+  color: #52606d;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin: 8px;
+  line-height: 1.3;
+}
+
+.total_price_delete_container {
+  display: flex;
+  align-items: center;
+}
+
+.cart_total_price {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-width: 100px;
+}
+
+.remove_button {
+  background-color: transparent;
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete_button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart_item {
+    margin-bottom: 32px;
+    padding-left: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 48px;
+  }
+  .cart_item_details_container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  .cart_product_title_brand_container {
+    width: 250px;
+  }
+  .cart_product_title {
+    font-size: 18px;
+  }
+  .cart_product_brand {
+    font-size: 14px;
+  }
+  .cart_quantity {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .cart_total_price {
+    font-size: 18px;
+  }
+  .remove_button {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .delete_button {
+    display: none;
+  }
+}
